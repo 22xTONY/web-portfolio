@@ -1,0 +1,41 @@
+body{
+    font-family: "DM Serif Text", serif;
+    font-style: normal;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    font-size: 45px;
+    font-weight: 800px;
+}
+.div-color{
+    color: rgb(242, 64, 0);
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.btn-primary{
+    color: aliceblue;
+    background-color: rgb(255, 68, 0);
+    padding: 7px 15px;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    border-radius: 5px 5px 5px;
+    
+}
+li:hover{
+    background-color: #a8a8a8;
+    height: 24px;
+}
