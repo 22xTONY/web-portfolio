@@ -6,6 +6,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 150px;
 }
 .nav-title{
     font-size: 45px;
@@ -36,6 +37,15 @@ nav a{
     
 }
 li:hover{
-    background-color: #a8a8a8;
+    background-color: #ffffff;
     height: 24px;
+    padding: 1px 5px;
+}
+header{
+    background-color: rgb(251, 218, 204);
+}
+.banner{
+    margin: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
 }
