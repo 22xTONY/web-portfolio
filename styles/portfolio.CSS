@@ -13,7 +13,7 @@ nav{
     font-weight: 800px;
 }
 .div-color{
-    color: rgb(242, 64, 0);
+    color: #f24000;
 }
 nav > ul{
     display: flex;
@@ -29,7 +29,7 @@ nav a{
 }
 .btn-primary{
     color: aliceblue;
-    background-color: rgb(255, 68, 0);
+    background-color: #ff4400;
     padding: 7px 15px;
     border-right: 5px solid black;
     border-bottom: 5px solid black;
@@ -42,10 +42,37 @@ li:hover{
     padding: 1px 5px;
 }
 header{
-    background-color: rgb(251, 218, 204);
+    background-color: #fbdacc;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner{
     margin: 30px 30px 30px 150px;
     display: flex;
     align-items: center;
+}
+.about{
+    background-color: #fff5f1 ;
+    margin: 110px 50px;
+    border: 1px solid black;
+}
+.sec-dec{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    padding: 0px 110px 0px 110px;
+
+}
+.sec-title{
+    margin-bottom: 0;
+    color: black;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700px;
+
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
 }
